@@ -9,26 +9,26 @@ beforeEach("Visit the URL", ()=> {
     })
 
 
-// it("Text Box examples", () => {
+it("Text Box examples", () => {
    
-//     cy.get(":nth-child(1) > .element-list > .menu-list > #item-0 > .text").click()
-//     cy.get("#userName").type("RajeshMahto")
-//     cy.get("#userEmail").type("RajeshMahto@test.com")
-//     cy.get("#currentAddress").type("Village: Santhaldih, Post: Harihapur, Dhanbad, Jharkhand-828401")
-//     cy.get("#permanentAddress").type("Village: Santhaldih, Post: Harihapur, Dhanbad, Jharkhand-828401")
-//     cy.get("#submit").click()
-//     cy.get("#name").should('have.text', "Name:RajeshMahto")
-//     cy.get("#email").should("have.text", "Email:RajeshMahto@test.com")
-// })
+    cy.get(":nth-child(1) > .element-list > .menu-list > #item-0 > .text").click()
+    cy.get("#userName").type("RajeshMahto")
+    cy.get("#userEmail").type("RajeshMahto@test.com")
+    cy.get("#currentAddress").type("Village: Santhaldih, Post: Harihapur, Dhanbad, Jharkhand-828401")
+    cy.get("#permanentAddress").type("Village: Santhaldih, Post: Harihapur, Dhanbad, Jharkhand-828401")
+    cy.get("#submit").click()
+    cy.get("#name").should('have.text', "Name:RajeshMahto")
+    cy.get("#email").should("have.text", "Email:RajeshMahto@test.com")
+})
 
-// it("Checkbox verification", ()=>{
+it("Checkbox verification", ()=>{
     
-//     cy.get(':nth-child(1) > .element-list > .menu-list > #item-1').click()
-//     cy.get('label > .rct-title').click();
-//     cy.get('#result').should('contain.text', 'home')
+    cy.get(':nth-child(1) > .element-list > .menu-list > #item-1').click()
+    cy.get('label > .rct-title').click();
+    cy.get('#result').should('contain.text', 'home')
     
 
-// })
+})
 
 
 it("Radio Button verification", ()=>{
