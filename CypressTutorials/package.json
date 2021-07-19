@@ -1,0 +1,22 @@
+{
+  "name": "todomvc",
+  "version": "1.0.0",
+  "description": "Automate ToDoMVC app using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RajeshKumarMahto"
+  },
+  "author": "Rajesh Kumar Mahto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.171",
+    "cypress": "^7.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
